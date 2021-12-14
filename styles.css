@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: rgb(238, 238, 238);
+}
+
+h1 {
+    background-color: #A5A9DA;
+    color: #fff; 
+}
+
+a {
+    color: lightslategray; 
+}
+
+img {
+    float: none;
+}
+
+.teste{
+    color: black;
+}
+
+#teste2{
+    background-color:#A5A9DA;
+    color: white;
+}
+
+a:hover{
+    background-color:pink;
+}
