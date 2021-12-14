@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto Orientado</title>
+
+<link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1>Projeto Orientado</h1>
+
+    <p><a href="home-projct.index.html">Home</a> 
+        | <a href="bruno.html">Bruno Simões</a> 
+        | <a href="lincoln.html">Lincoln Souza</a> 
+        | <a href="tabela-de-curiosidades.html">Tabela de curiosidades</a> 
+        | <a href="sites-favoritos.html">Sites favoritos</a> 
+        | <a href="descobrindo-tags.html">Descobrindo tags</a>
+        | <a href="descobrindo-propriedades-css.html">Descobrindo propriedades CSS</a>
+        | <a href="contatos.html">Contato</a></p>
+
+
+
+
+
+        <h2>Introdução aos web forms</h2>
+    
+    
+    <!--Bruno Simões-->
+
+
+        <p><strong>Formulário</strong></p>
+
+    <form action="http://hub.fatecrl.edu.br/sobrino/recebe-v2.php" method="post">
+         
+        <p>
+
+            <!-- <input type="text" name="nome" required placeholder="Seu nome" minlength="5" maxlength="20" autofocus autocomplete="off">
+
+
+        <label for="nome">Nome</label><br> -->
+        <input type="text" name="nome" id="nome" required placeholder="Seu nome" size="35" minlength="5" maxlength="30">
+        </p>
+
+        <p>
+        <!-- <label for="email">E-mail</label><br> -->
+        <input type="email" name="email" id="email" required placeholder="E-mail" size="35" minlength="5" maxlength="30">
+        </p>
+
+        <p>
+            <label for="password">Senha</label><br>
+            <input type="password" name="senha" id="password" value="senha" accesskey="S" />
+        </p>
+        <p>
+            <label for="date">Data de nascimento</label><br>
+            <input type="date" name="data" id="date">
+        </p>
+
+        <p>
+            <fieldset style="width: 50%;">
+                <legend title="Informa&ccedil;&atilde;o complementar da legenda">
+                  Informe a renda média</legend>
+                <input type="radio" name="salario" id="pradio1" value="Até R$1.200,00 reais">
+                <label for="pradio1">Até R$1.200,00 reais</label><br>
+                <input type="radio" name="salario" id="pradio2" value="Até R$3.000,00 reais">
+                <label for="pradio2">Até R$3.000,00 reais</label><br>
+                <input type="radio" name="salario" id="pradio3" value="Mais de R$6.000,00 reais">
+                <label for="pradio3">Mais de R$6.000,00 reais</label><br>
+                </fieldset>
+    
+
+        <p>
+            <label for="cor">Escolha a sua cor preferida:</label>
+            <input type="color" id="cor" name=" cores" value="#27be39">
+        </p>
+
+        <p>
+            Marque uma ou mais áreas que lhe correspondem:<br>
+
+            <div>
+              <input type="checkbox" id="pcheck1" name="experiencia1">
+              <label for="pcheck1">Ensino superior completo</label>
+            </div>
+            
+            <div>
+              <input type="checkbox" id="pcheck2" name="experiencia2">
+              <label for="pcheck2">Já possui experiência de trabalho na área</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="pcheck3" name="experiencia3">
+                <label for="pcheck3">Já atua na área a mais de 3 anos</label>
+              </div>
+
+
+        <p>
+            <label for="story">Deixe suas obsrvações:</label><br>
+
+            <textarea id="story" name="obs"
+            rows="5" cols="33">
+            </textarea>
+
+        </p>
+
+        <input type="submit" value="cadastrar">
+
+    </form>    
+
+    </body>
+
+</html>
